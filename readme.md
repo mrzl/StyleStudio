@@ -4,7 +4,7 @@ https://github.com/jcjohnson/neural-style/ on a remote host.
 due to memory problems, content and style images need to be
 cut into tiles in order to process them after another.
 
-# cutter.sh
+### cutter.sh
 cuts image into pieces
 
 ```
@@ -16,14 +16,14 @@ cuts image into pieces
 # $ ls out/
 ```
 
-# generator.sh
+### generator.sh
 takes cut pieces and creates a massive torch batch
 
-# get_from_server.sh
+### get_from_server.sh
 loads done images from the server
 
-# send_to_server.sh
+### send_to_server.sh
 sends cut images to the server
 
-# stitch.sh
+### stitch.sh
 stitching tiles back together
