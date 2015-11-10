@@ -1,3 +1,9 @@
+a collection of some tools to use the style transfer from
+https://github.com/jcjohnson/neural-style/ on a remote host.
+
+due to memory problems, content and style images need to be
+cut into tiles in order to process them after another.
+
 # cutter.sh
 cuts image into pieces
 
@@ -18,3 +24,6 @@ loads done images from the server
 
 # send_to_server.sh
 sends cut images to the server
+
+# stitch.sh
+stitching tiles back together
